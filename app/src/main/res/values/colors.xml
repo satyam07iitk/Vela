@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#183156</color>
+    <color name="colorAccent">#21325D</color>
+
+    <color name="theme">#0199ae</color>
+    <color name="yellow_line">#FFA500</color>
+
+
+    <color name="myPrimaryColor">#0199ae</color>
+    <color name="myPrimaryDarkColor">#1e89ae</color>
+    <color name="myAccentColor">#0199ae</color>
+    <color name="myDrawerBackground">#F2F2F2</color>
+    <color name="myWindowBackground">#DEDEDE</color>
+    <color name="myTextPrimaryColor">#FFFFFF</color>
+    <color name="myNavigationColor">#000000</color>
+    <color name="hintColor">#F5F5F4</color>
+    <color name="hintColor_2">#D3D3D3</color>
+    <color name="black">#000000</color>
+    <color name="black_half">#60000000</color>
+    <color name="lineSeparatorColor">#777464</color>
+    <color name="selected_gray">#ffdbdbdb</color>
+    <color name="colorLowWhite">#AAA7A5</color>
+    <color name="line">#F1F1F1</color>
+    <color name="holo_red_dark">#F7581A</color>
+    <color name="holo_gray">#949393</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange">#FC6E0A</color>
+    <color name="cream_dark">#B1BCBE</color>
+    <color name="cream_milky">#D9D9D9</color>
+
+    <!-- Simple Colors -->
+    <color name="black_trans">#88000000</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="main">#e0dfde</color>
+
+    <color name="search_list_divider_color">#EBEBEB</color>
+    <color name="search_list_border_color">#B3B3B3</color>
+    <color name="search_list_pressed_color">#B3B3B3</color>
+    <color name="search_list_empty_color">#D7B3B3B3</color>
+    <color name="search_list_full_color">#FFFFFF</color>
+
+    <!-- Buttons -->
+    <color name="button_title">#FFFFFF</color>
+    <color name="button_title_pressed">#B7B7B7</color>
+    <color name="button_title_shadow">#777777</color>
+
+    <color name="rounded_list_item_bg_color">#FFFFFF</color>
+    <color name="rounded_list_item_bg_pressed_color">#FDF7E0</color>
+    <color name="rounded_list_border_color">#EAE6E1</color>
+
+    <color name="colorPrimary">#0199ae</color>
+
+
+
+    <color name="facebook">#3b589A</color>
+    <color name="twitter">#54ACEC</color>
+    <color name="instagram">#3E729A</color>
+    <color name="google_pluse">#DD4A38</color>
+    <color name="forgetpass">#33AAE1</color>
+
+    <color name="tabselected">#21325D</color>
+
+
+    <color name="title_text_color">#333333</color>
+    <color name="sub_title_text_color">#666666</color>
+
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="Darkblue">#1c3b6a</color>
+    <color name="Blue">#0199ae</color>
+    <color name="Mintcream">#F5FFFA</color>
+    <color name="grey"> #858585</color>
+    <color name="backgroud">#e6e6e6</color>
+    <color name="carname">#545454</color>
+    <color name="bluetab"> #1c3b6b</color>
+    <color name="greaytab">#d1d3d4</color>
+    <color name="Black">#000000</color>
+    <color name="chatback">#f1f2f2</color>
+    <color name="chatdate">#909090</color>
+    <color name="search">#00bcd6</color>
+    <color name="tabcolor">#e6e7e7</color>
+    <color name="chatbackground">#FFA1A1A1</color>
+    <color name="hintcolor">#cccccc</color>
+    <color name="typerating">#333333</color>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+       app:cardElevation="1dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/ll_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/profileimage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="11dp"
+                    android:src="@drawable/driveruser"
+                    android:scaleType="fitXY"
+                    android:gravity="left"
+                    android:contentDescription="profile" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:textSize="17sp"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/ll_points"
+                android:text="Mohammad Khan"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/Darkblue"/>
+
+            <TextView
+                android:id="@+id/Carname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Name"
+                android:gravity="center_vertical"
+                android:textSize="13sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Mahindra Renauld 7 seater"
+                android:layout_toRightOf="@+id/ll_points"
+                android:textColor="@color/carname" />
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/Carname"
+            android:gravity="center_vertical"
+            android:src="@drawable/ico_phone"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ll_points"
+            android:layout_marginTop="5dp"
+            android:contentDescription="phone" />
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/Carname"
+            android:gravity="center_vertical"
+            android:src="@drawable/ico_chat"
+            android:layout_toRightOf="@+id/call"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="25dp"
+            android:contentDescription="chat"/>
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/Carname"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/chat"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ico_share"
+            android:layout_marginLeft="25dp"
+            android:contentDescription="share" />
+
+        <LinearLayout
+            android:id="@+id/ll_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_rate"
+                    android:text="4.2"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="13sp"
+                    android:drawablePadding="-6dip"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/Darkblue"/>
+                <TextView
+                    android:id="@+id/Location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_location"
+                    android:text="0.5 km"
+                    android:textSize="13sp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="-10dip"
+
+                    android:textColor="@color/Darkblue"/>
+                </LinearLayout>
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

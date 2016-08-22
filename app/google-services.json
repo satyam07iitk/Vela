@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "434677133107",
+    "project_id": "vela-1470124350463"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434677133107:android:fbbcb2b854d34975",
+        "android_client_info": {
+          "package_name": "com.vela.app.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434677133107-nvugqoqrrc0o1m1k6g9l8ftn7ja3avrl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vela.app.mobile",
+            "certificate_hash": "E1DE472B7E04BE117753BA8FDC9627B79AA33953"
+          }
+        },
+        {
+          "client_id": "434677133107-57iv6o88thqua809eus08644p83p8hbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAIj6UrX0IrwpFle2hUPXxKurJXNdcHeI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

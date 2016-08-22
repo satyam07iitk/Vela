@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/loayoutBelow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:drawableLeft="@mipmap/ic_user"
+            android:drawablePadding="15dp"
+            android:hint="Username"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/hintColor_2">
+
+            <requestFocus />
+        </EditText>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lineSeparatorColor" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="5dp"
+                android:background="@null"
+                android:drawableLeft="@mipmap/ic_password"
+                android:drawablePadding="15dp"
+                android:hint="Password"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/hintColor_2" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lineSeparatorColor" />
+
+        <EditText
+            android:id="@+id/edtConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:drawableLeft="@mipmap/ic_password"
+            android:drawablePadding="15dp"
+            android:hint="Confirm Password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/hintColor_2"
+            android:textCursorDrawable="@null" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/lineSeparatorColor" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I am a Driver"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#0095D9" />
+
+            <ImageButton
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@mipmap/icon_forgot_pwd" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#FFF"
+            android:text="SIGN UP"
+            android:textAllCaps="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@color/theme" />
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
+
